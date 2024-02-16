@@ -30,7 +30,17 @@ public class Druide {
 	}
 	
 	public static void main(String[] args) {
-		//TODO main pour tester
+	    Druide druide = new Druide("Merlin", 5, 10);
+	    
+	    // _________Test des fonctions individellement_____________
+	    
+	    //String nomDruide = druide.getNom();
+	    //System.out.println("Nom du druide : " + nomDruide);
+	    
+	    //druide.setNom("Gandalf");
+	    //System.out.println("Nouveau nom du druide : " + druide.getNom());
+	    
+	    //druide.parler("Je suis un druide très puissant !");
 	}
 
 }

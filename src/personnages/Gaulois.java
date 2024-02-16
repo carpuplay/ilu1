@@ -24,7 +24,7 @@ public class Gaulois {
 	}
 	
 	public String prendreParole() {
-		return "Le Gaulois" + nom + ":" ;
+		return "Le Gaulois " + nom + ":" ;
 	}
 	
 	public void frapper(Romain romain) {
@@ -34,6 +34,9 @@ public class Gaulois {
 	}
 	
 	public static void main(String[] args) {
-		//TODO créer un main permettant de tester la classe Gaulois
+		Gaulois gaulois = new Gaulois("Asterix", 13);
+		
+		gaulois.parler("Ça va les gars?");
+
 	}
 }
