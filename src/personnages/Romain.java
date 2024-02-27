@@ -1,5 +1,7 @@
 package personnages;
 
+import java.nio.file.FileSystemLoopException;
+
 public class Romain {
 	private String nom;
 	private int force;
@@ -27,7 +29,7 @@ public class Romain {
 	}
 
 	public void parler(String texte) {
-		System.out.print(prendreParole() + "<<" + texte + ">>");
+		System.out.println(prendreParole() + "<<" + texte + ">>");
 	}
 
 	public String prendreParole() {
@@ -42,8 +44,11 @@ public class Romain {
 			parler("J'abandonne!");
 		}
 	}
-	
+
 	public static void main(String[] args) {
-		// TODO dcp créer le main du romain
+		Romain minus = new Romain("Minus", 6);
+		minus.parler("Bonjour");
+		minus.recevoirCoup(5);
+		minus.recevoirCoup(8);
 	}
 }
