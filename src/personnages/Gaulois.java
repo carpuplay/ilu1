@@ -29,13 +29,9 @@ public class Gaulois {
 	}
 
 	public String prendreParole() {
-<<<<<<< Updated upstream
-		return "Le Gaulois " + nom + ":" ;
-=======
-		return "Le Gaulois" + nom + ":";
 
+		return "Le Gaulois " + nom + ":";
 
->>>>>>> Stashed changes
 	}
 
 	public void boirePotion(int forcePotion) {
@@ -50,8 +46,6 @@ public class Gaulois {
 	}
 
 	public static void main(String[] args) {
-<<<<<<< Updated upstream
-=======
 		Romain minus = new Romain("Minus", 6);
 		Gaulois asterix = new Gaulois("Asterix", 8);
 		Druide panoramix = new Druide("Panoramix", 5, 10);
@@ -65,9 +59,8 @@ public class Gaulois {
 		asterix.frapper(minus);
 		asterix.boirePotion(forcePotion);
 
->>>>>>> Stashed changes
 		Gaulois gaulois = new Gaulois("Asterix", 13);
-		
+
 		gaulois.parler("Ça va les gars?");
 
 	}

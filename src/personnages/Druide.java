@@ -50,26 +50,13 @@ public class Druide {
 	private String prendreParole() {
 		return "Le druide " + nom + " : ";
 	}
-	
+
 	public static void main(String[] args) {
-<<<<<<< Updated upstream
-	    Druide druide = new Druide("Merlin", 5, 10);
-	    
-	    // _________Test des fonctions individellement_____________
-	    
-	    //String nomDruide = druide.getNom();
-	    //System.out.println("Nom du druide : " + nomDruide);
-	    
-	    //druide.setNom("Gandalf");
-	    //System.out.println("Nouveau nom du druide : " + druide.getNom());
-	    
-	    //druide.parler("Je suis un druide très puissant !");
-	}
-=======
+
+		Druide druide = new Druide("Merlin", 5, 10);
 		Druide panoramix = new Druide("Panoramix", 5, 10);
 		Random random1 = new Random();
 		panoramix.preparerPotion(random1);
->>>>>>> Stashed changes
 
 	}
 }
